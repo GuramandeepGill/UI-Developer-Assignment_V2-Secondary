@@ -1,0 +1,115 @@
+div[data-role="page"] {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+div[data-role="page"] div[data-role="header"] {
+    background-color: transparent;
+    color: black;
+    border: none;
+    text-shadow: none;
+}
+
+div[data-role="page"] div[data-role="header"] h1 {
+    font-size: x-large;
+}
+
+div[data-role="page"] ul[data-role="listview"] {
+    max-width: 400px;
+    margin: auto;
+    box-shadow: none;
+}
+
+ul[data-role="listview"] li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 10px;
+    min-height: 120px;
+    background-color: rgb(200, 230, 250);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+ul[data-role="listview"] li:hover {
+    background-color: rgb(200, 200, 235);
+}
+
+ul[data-role="listview"] li img {
+    width: 100px;
+    height: 80px;
+    margin: 0 20px 0 10px;
+}
+
+ul[data-role="listview"] li a:first-child {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+ul[data-role="listview"] li a:first-child button{
+    width: 30px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffa751;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 2px 0px;
+    transition: 1s;
+}
+
+ul[data-role="listview"] li a:first-child button:hover {
+    color: black;
+}
+
+ul[data-role="listview"] li a:first-child p{
+    white-space: initial;
+}
+
+div[data-role="page"] div[data-role="footer"] {
+    background-color: transparent;
+    border: none;
+}
+
+.wrapper p:last-child {
+    font-size: inherit;
+    font-weight: bold;
+    color: #ffa751;
+}
+
+ul[data-role="listview"] li a:last-child {
+    min-width: 33px;
+    min-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffa751;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    transform: translateX(25px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 1s;
+}
+
+ul[data-role="listview"] li a:last-child:hover {
+    transform: translateX(25px) rotate(.5turn);
+}
+
+div[data-role="main"] #selected-products-div {
+    border-radius: 20px;
+    max-width: 440px;
+    margin: auto;
+}
+
+#selected-products-div h3 a {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ffe259, #ffa751);
+    text-shadow: none;
+}

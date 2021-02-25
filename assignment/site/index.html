@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="pageone">
+        <!-- Task 1 : Make the red color spread across the header. Make the full header RED.
+            You can move your css to an external file as css or scss.
+        -->
+        <div data-role="header" data-position="fixed">
+            <h1>Super Burger</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <ul data-role="listview" data-split-icon="plus" data-split-theme="a" data-inset="true" id="all-products">
+                <!-- All products are added here -->
+            </ul>
+            <div data-role="collapsible" id="selected-products-div">
+                <h3 id="selected-products-header">Selected Items</h3>
+                <ul data-role="listview" data-split-icon="minus" data-split-theme="a" data-inset="true" id="selected-products">
+                    <!-- Selected products are added here -->
+                </ul>
+              </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" style="text-align:center">
+            <h1><span id="payment_amount"></span></h1>
+            <button id="place-order-button">Place Order</button>
+        </div>
+    </div>
+</body>
+</html>

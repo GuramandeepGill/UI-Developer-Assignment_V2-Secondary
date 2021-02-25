@@ -1,0 +1,27 @@
+[
+  {
+    "id": "PROD001",
+    "name": "Grilled Chicken Burger",
+    "description": "Chicken, mushroom, cheese, tomato, pickle, lettuce",
+    "options" : {
+      "S": 499,
+      "M": 599,
+      "L": 699
+    },
+    "image": "Grilled-Chicken-Burger-510x414-nobg.png"
+  },
+  {
+    "id": "PROD002",
+    "name": "Grilled Burger COMBO",
+    "description": "Beef & Lamb, mushroom, cheese, tomato, pickle, lettuce",
+    "price": 1199,
+    "image": "House-Burger-Combo-e1561691428871-510x414-nobg.png"
+  },
+  {
+    "id": "PROD007",
+    "name": "Pop Drink",
+    "description": "Selection of any canned pop drink",
+    "price": 199,
+    "image": "Can-Drink-e1561692029169-510x414-nobg.png"
+  }
+]
